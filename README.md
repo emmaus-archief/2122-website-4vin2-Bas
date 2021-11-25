@@ -60,6 +60,8 @@ https://www.w3schools.com/cssref/default.asp
 https://www.w3schools.com/howto/default.asp
 - informatie van Emmauscollege over website opdracht
 https://emmauscollege.github.io/informatica/website/
+- pulldownmenu
+https://www.w3schools.com/css/css_dropdowns.asp
 
 ## Credits
 - Website template van het Emmauscollege Rotterdam https://github.com/emmauscollege/4HV-website-template
