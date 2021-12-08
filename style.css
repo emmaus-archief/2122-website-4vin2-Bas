@@ -11,14 +11,15 @@ html, body {
 
 
 main {
-    margin: 0 auto;
-    width: 700px;
+    margin: 0px auto ;
+    width: 100%;
     position: relative;
 }
 
 
 article {
     text-align: justify;
+    font-size:  1.3em;
 }
 
 
@@ -58,10 +59,11 @@ a:hover {
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
-    margin: auto;
+    margin: 0px;
     padding: 0;
     background-color: #dddddd;
-    height: 100px; /* smerige truuk */
+    overflow: auto
+   
 }
 
 nav ul li {
@@ -82,7 +84,7 @@ nav li a:hover {
 }
 
 nav li a.active {
-    background-color: rgb(1, 14, 19);
+    background-color: rgb(255, 255, 255);
 }
 
 .dropdown {
