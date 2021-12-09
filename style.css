@@ -60,9 +60,10 @@ a:hover {
 nav ul {
     list-style-type: none;
     margin: 0px;
-    padding: 0;
-    background-color: #dddddd;
-    overflow: auto
+    padding: 0px;
+    background-color: #302828;
+    height: 45px;
+    width:100%;
    
 }
 
@@ -95,7 +96,7 @@ nav li a.active {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #000000;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
