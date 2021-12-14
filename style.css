@@ -4,10 +4,12 @@ html, body {
     height: 100%;
     padding: 0;
     background-color:rgb(0, 0, 0);  
+    margin: 0px !important;
     
     color: #ffffff;
     font: Verdana, Arial, Sans-Serif;
 }
+
 
 
 main {
@@ -20,6 +22,7 @@ main {
 article {
     text-align: justify;
     font-size:  1.3em;
+    margin: 60px;
 }
 
 
@@ -57,26 +60,32 @@ a:hover {
 
 
 /* navigatiebalk */
-nav ul {
+.navbar__list {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     background-color: #302828;
     height: 45px;
     width:100%;
-   
 }
+
+
+
 
 nav ul li {
     float: left;
 }
 
-nav li {
+.navbar__item {
     display: block;
     color: blue;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.navbar__item--red {
+    background-color: red;
 }
 
 
@@ -102,9 +111,17 @@ nav li a.active {
     padding: 12px 16px;
     z-index: 1;
   }
+
+  .dropdown-item{
+      margin: 5px;
+      padding: 10px;
+  }
   
   .dropdown:hover .dropdown-content {
     display: block;
   }
 
+.navbarkie {
+    position: fixed;
 
+}
