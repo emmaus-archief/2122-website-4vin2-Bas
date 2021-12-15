@@ -1,0 +1,47 @@
+.weaponbox {
+    width: 33%;
+    height: 450px;
+
+}
+
+
+/* BEM naming convention */
+.weaponbox__top {
+    background-color: #272727;
+    height: 40px;
+    text-align: center;
+    margin-top: -25px;
+    border-color: black;
+    border-radius: 25px 25px 0px 0px;
+    border: solid 2px;
+}
+
+.weaponbox__name {
+    margin-top: 9px;
+    color: #14A76C
+}
+
+.weaponbox__main {
+    width: auto;
+    height: 100%;
+    background-color: rgb(75, 75, 75);
+    border-color: black;
+    border-radius: 0px 0px 25px 25px;
+    border-bottom: solid 2px;
+    border-left: solid 2px;
+    border-right: solid 2px;
+    
+}
+
+.weaponbox__picture{
+    
+
+
+
+}
+
+
+.weaponbox__main:hover {
+
+
+}
