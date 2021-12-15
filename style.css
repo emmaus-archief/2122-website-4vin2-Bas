@@ -7,6 +7,7 @@ html, body {
 
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
+    margin: 0px;
 }
 
 
@@ -14,6 +15,7 @@ main {
     margin: 0 auto;
     width: 700px;
     position: relative;
+    top: 60px;
 }
 
 
@@ -46,7 +48,7 @@ img.zweefLinks {
 }
 
 a {
-    color: skyblue;
+    color: #ff652f;
     text-decoration: none;
 }
 
@@ -56,30 +58,62 @@ a:hover {
 
 
 /* navigatiebalk */
-nav ul {
+.navbar {
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0px;
+}
+
+.navbar__list {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #f71414;
+    background-color: #272727;
     overflow: hidden;
 }
 
-nav ul li {
-    float: left;
-}
-
-nav li a {
+.navbar__item {
+    float: right;
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar__item--left {
+    float: left;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #ff4400;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: #ff652f;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown-item{
+      margin: 5px;
+      padding: 10px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
