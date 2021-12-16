@@ -3,7 +3,7 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #808080;  
+    background-color: #41506b;  
 
     color: #303030;
     font: Verdana, Arial, Sans-Serif;
@@ -25,7 +25,7 @@ article {
 
 
 header {
-    color: skyblue;
+    color: #35bcbf;
     text-align: center;
 }
 
@@ -48,7 +48,7 @@ img.zweefLinks {
 }
 
 a {
-    color: #ff652f;
+    color: #35bcbf;
     text-decoration: none;
 }
 
@@ -69,7 +69,7 @@ a:hover {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #272727;
+    background-color: #263849;
     height: 51px;
 }
 
@@ -100,6 +100,9 @@ nav li a.active {
     background-color: #ff652f;
 }
 
+nav li {
+    padding: 10px;
+}
 .dropdown {
     position: relative;
     display: inline-block;
@@ -128,3 +131,4 @@ nav li a.active {
 float:left;
 
 }
+

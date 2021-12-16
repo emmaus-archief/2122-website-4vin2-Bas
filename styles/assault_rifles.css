@@ -18,7 +18,7 @@
 
 .weaponbox__name {
     margin-top: 9px;
-    color: #14A76C
+    color: #35bcbf
 }
 
 .weaponbox__main {
@@ -43,5 +43,14 @@
 
 .weaponbox__main:hover {
 
+    width: auto;
+    height: 100%;
+    background-color: rgb(75, 75, 75);
+    border-color: black;
+    border-radius: 0px 0px 25px 25px;
+    border-bottom: solid 2px;
+    border-left: solid 2px;
+    border-right: solid 2px;
+    
 
 }
