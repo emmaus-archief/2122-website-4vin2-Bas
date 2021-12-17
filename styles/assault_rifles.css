@@ -1,6 +1,6 @@
 .weaponbox {
     width: 33%;
-    height: 450px;
+    height: 175px;
 
 }
 
@@ -34,12 +34,10 @@
 }
 
 .weaponbox__picture{
-    
-
-
+    border-image: 2px;
+    border-color: chocolate;
 
 }
-
 
 .weaponbox__main:hover {
 
@@ -52,5 +50,16 @@
     border-left: solid 2px;
     border-right: solid 2px;
     
+
+}
+
+.weaponbox__stats {
+
+width: 100%;
+height:fit-content;
+border-color: blue;
+grid-template-columns: 33% 13% 13% 13% 13% 13%;
+grid-template-rows: 43px 43px 43px 43px ;
+
 
 }

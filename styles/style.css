@@ -103,6 +103,7 @@ nav li a.active {
 nav li {
     padding: 10px;
 }
+
 .dropdown {
     position: relative;
     display: inline-block;
