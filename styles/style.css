@@ -13,9 +13,11 @@ html, body {
 
 main {
     margin: 0 auto;
-    width: 1000px;
+    width: 1100px;
     position: relative;
     top: 60px;
+    border: 2px;
+    border-color: #ff652f;
 }
 
 
