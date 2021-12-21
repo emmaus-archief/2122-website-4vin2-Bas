@@ -42,6 +42,11 @@
     margin: 10px 10px 60px 30px;
 }
 
+.weaponbox--8 {
+
+    float:left;
+    margin: 10px 10px 60px 10px;
+}
 
 
 .weaponbox {
@@ -89,6 +94,10 @@
 .weaponbox__picture{
     border-image: 2px;
     border-color: chocolate;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 
 }
 /* 
