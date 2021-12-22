@@ -5,7 +5,7 @@ html, body {
     padding: 0;
     background-color: #41506b;  
 
-    color: #303030;
+    color: #000000;
     font: Verdana, Arial, Sans-Serif;
     margin: 0px;
 }
@@ -19,6 +19,7 @@ main {
     border: 2px;
     border-color: #ff652f;
 }
+
 
 
 article {
@@ -132,6 +133,12 @@ nav li {
 
 .kolom_links {
 float:left;
+
+}
+
+.main-text {
+
+    font-size: 20px;
 
 }
 

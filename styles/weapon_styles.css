@@ -55,6 +55,11 @@
 
 }
 
+.weaponbox-groot {
+
+    height: 350px;
+}
+
 
 /* BEM naming convention */
 .weaponbox__top {
@@ -84,10 +89,15 @@
     
 }
 
-.weaponbox__main:hover .weaponbox__stats{
+.weaponbox__main--groot {
+
+
+}
+
+.weaponbox__main--klein:hover .weaponbox__stats{
     display: block;
 }
-.weaponbox__main:hover .weaponbox__picture{
+.weaponbox__main--klein:hover .weaponbox__picture{
     display: none;
 }
 
@@ -220,4 +230,9 @@ text-align: center;
         background-color: #faa9a9;   
         
         
+}
+
+.wapeninfo{
+    width: fit-content;
+
 }
