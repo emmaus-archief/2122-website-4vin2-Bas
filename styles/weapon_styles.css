@@ -55,7 +55,7 @@
 
 }
 
-.weaponbox-groot {
+.weaponbox--groot {
 
     height: 350px;
 }
@@ -89,15 +89,14 @@
     
 }
 
-.weaponbox__main--groot {
 
 
-}
 
-.weaponbox__main--klein:hover .weaponbox__stats{
+
+.weaponbox__main:hover .weaponbox__stats{
     display: block;
 }
-.weaponbox__main--klein:hover .weaponbox__picture{
+.weaponbox__main:hover .weaponbox__picture{
     display: none;
 }
 
@@ -108,6 +107,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+  
 
 }
 /* 
@@ -235,4 +235,68 @@ text-align: center;
 .wapeninfo{
     width: fit-content;
 
+}
+
+.nietlinkkleurtje {
+
+
+    color: black
+    
+}
+
+
+.weaponbox__picture_maardannietveranderennaarstats {
+    border-image: 2px;
+    border-color: chocolate;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+
+
+}
+
+.weaponbox__stats_maardannietveranderdvanpicture{
+    border: 2px solid #35bcbf;
+    color:rgb(231, 91, 10);
+    height: 135px;
+    
+
+}
+
+.weaponbox__stats_attachments{
+    border: 2px solid #35bcbf;
+    color:rgb(231, 91, 10);
+    height: 135px;
+    display: none;
+
+}
+
+.weaponbox__main:hover .weaponbox__stats_attachments{
+
+    display:block;
+}
+
+.weaponbox__main:hover .weaponbox__stats_maardannietveranderdvanpicture {
+
+
+    display:none;
+}
+
+.weaponbox__stat__stats__on_attachments {
+ 
+    border: 2px solid rgb(39 39 39);
+    margin: 7px 3px 7px 3px;
+    background-color: #03971c;
+    
+    
+}
+
+    .weaponbox__stat__stats__off_attachments {
+ 
+        border: 2px solid rgb(39 39 39);
+        margin: 7px 3px 7px 3px;
+        background-color: #ff7474;   
+        
+        
 }
