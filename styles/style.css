@@ -143,3 +143,53 @@ float:left;
 
 }
 
+.imgbox {
+
+    max-width: 500px;
+    height: 275px;
+    margin: 24px;
+    filter: brightness(80%);
+    
+}
+
+.imgbox--right {
+
+    float: right;
+}
+
+.imgbox--left{
+
+    float: left;
+
+}
+
+
+.container-2 {
+    position: relative;
+    text-align: center;
+    color: rgb(248, 248, 248);
+
+}    
+.text-in-plaatje {
+    text-align: left;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 15px;
+    border:rgb(3, 6, 34) 2px;
+
+}
+
+.groot-maar-klein {
+ float: left;
+ font-size: 30px;
+
+
+}
+
+.net-wat-kleiner {
+
+float: left;
+font-size: 20px;
+
+}
