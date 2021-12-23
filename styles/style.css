@@ -57,7 +57,7 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: #272727
+ 
 }
 
 
@@ -139,16 +139,16 @@ float:left;
 
 .main-text {
 
-    font-size: 20px;
+    font-size: 24px;
 
 }
 
 .imgbox {
 
-    max-width: 500px;
+    width:  530px;
     height: 275px;
-    margin: 24px;
-    filter: brightness(80%);
+    margin: 10px;
+    filter: brightness(60%);
     
 }
 
@@ -164,17 +164,74 @@ float:left;
 }
 
 
-.container-2 {
+.container-imgbox {
     position: relative;
     text-align: center;
     color: rgb(248, 248, 248);
 
 }    
-.text-in-plaatje {
+
+.container-imgbox:hover .imgbox {
+
+ filter:brightness(45%)
+
+}
+
+.text-in-plaatje-1 {
     text-align: left;
-    position: absolute;
+    position:absolute;
     top: 50px;
     left: 50px;
+    font-size: 15px;
+    border:rgb(3, 6, 34) 2px;
+
+}
+
+.text-in-plaatje-2 {
+    text-align: left;
+    position:absolute;
+    top: 50px;
+    left: 600px;
+    font-size: 15px;
+    border:rgb(3, 6, 34) 2px;
+
+}
+
+.text-in-plaatje-3 {
+    text-align: left;
+    position:absolute;
+    top: 350px;
+    left: 50px;
+    font-size: 15px;
+    border:rgb(3, 6, 34) 2px;
+
+}
+
+.text-in-plaatje-4 {
+    text-align: left;
+    position:absolute;
+    top: 350px;
+    left: 600px;
+    font-size: 15px;
+    border:rgb(3, 6, 34) 2px;
+
+}
+
+.text-in-plaatje-5 {
+    text-align: left;
+    position:absolute;
+    top: 640px;
+    left: 50px;
+    font-size: 15px;
+    border:rgb(3, 6, 34) 2px;
+
+}
+
+.text-in-plaatje-6 {
+    text-align: left;
+    position:absolute;
+    top: 640px;
+    left: 600px;
     font-size: 15px;
     border:rgb(3, 6, 34) 2px;
 
@@ -193,3 +250,28 @@ float: left;
 font-size: 20px;
 
 }
+
+.nietlink {
+
+    color: white;
+}
+
+.index-images {
+
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+}
+
+.logo {
+    top: -35px;
+    width: 100px;
+    position: relative;
+    background-color: none;
+
+}
+
