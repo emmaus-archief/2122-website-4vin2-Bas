@@ -300,3 +300,19 @@ text-align: center;
         
         
 }
+
+.attachmentslijst {
+
+    padding-right: 240px;
+    float:right;
+    
+}
+
+.attachment {
+
+margin: 10px;
+font-size: 22px;
+}
+
+
+
