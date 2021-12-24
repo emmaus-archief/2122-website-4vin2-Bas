@@ -63,25 +63,25 @@
 
 /* BEM naming convention */
 .weaponbox__top {
-    background-color: #272727;
+    background-color: #6f2322;
     height: 40px;
     text-align: center;
     margin-top: -25px;
-    border-color: black;
+    border-color: rgb(248, 7, 7);
     border-radius: 25px 25px 0px 0px;
     border: solid 2px;
 }
 
 .weaponbox__name {
     margin-top: 9px;
-    color: #35bcbf
+    color: #f7f7ef
 }
 
 .weaponbox__main {
     width: auto;
     height: 100%;
-    background-color: rgb(75, 75, 75);
-    border-color: black;
+    background-color: #4e4e50;
+    border-color: #c3073f;
     border-radius: 0px 0px 25px 25px;
     border-bottom: solid 2px;
     border-left: solid 2px;
@@ -102,7 +102,6 @@
 
 .weaponbox__picture{
     border-image: 2px;
-    border-color: chocolate;
     display: block;
   margin-left: auto;
   margin-right: auto;
@@ -127,14 +126,15 @@
 .weaponbox__stat {
     display: grid;
     grid-template-rows: 33px 33px 33px 33px;
-    border:6px solid crimson ;
+
 }
 
 .weaponbox__stats {
-    border: 2px solid #35bcbf;
-    color:rgb(231, 91, 10);
+    color: #fdfdfd;
     height: 135px;
     display:none;
+    top: 15px;
+    position: relative;
 }
 /*.weaponbox__statename {
     width: 20%;
@@ -154,13 +154,14 @@
 .weaponbox__stat__accuracy {
 display:grid;
 grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr ;
-border: 1px solid #1cbd0d
-
+border-bottom: 3px solid #950740;
+border-top: 3px solid #950740;
+margin-top: -3px;
 
 }
 
 .weaponbox__stat__accuracy__name {
-border: 1px solid #1cbd0d;
+
 text-align: center;
 
 
@@ -171,46 +172,43 @@ text-align: center;
 .weaponbox__stat__firepower {
     display:grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr ;
-    border: 1px solid #1cbd0d
-    
+    border-bottom: 3px solid #950740;
+
     
 }
     
 .weaponbox__stat__firepower__name {
-    border: 1px solid #1cbd0d;
     text-align: center;
-    
     
 }
 
 .weaponbox__stat__speed {
         display:grid;
         grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr ;
-        border: 1px solid #1cbd0d
-        
+        border-bottom: 3px solid #950740;
+
         
 }
-        
-     .weaponbox__stat__speed__name {
-         border: 1px solid #1cbd0d;
-         text-align: center;
+
+.weaponbox__stat__speed__name {
+    text-align: center;
         
         
 } 
         
 .weaponbox__stat__ammo {
+
     display:grid;
     grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr ;
-    border: 1px solid #1cbd0d
-            
+    border-bottom: 3px solid #950740;
+  
             
 }
             
-    .weaponbox__stat__ammo__name {
-        border: 1px solid #1cbd0d;
-            text-align: center;
-            
-            
+.weaponbox__stat__ammo__name {
+
+ text-align: center;
+                   
 }
  
 
@@ -240,8 +238,8 @@ text-align: center;
 .nietlinkkleurtje {
 
 
-    color: black
-    
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 

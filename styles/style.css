@@ -3,10 +3,10 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: #41506b;  
+    background-color: #1a1a1d;  
 
-    color: #000000;
-    font: Verdana, Arial, Sans-Serif;
+    color: #c9c9c9;
+    font: Verdana, Arial, Sans-serif;
     margin: 0px;
 }
 
@@ -17,7 +17,7 @@ main {
     position: relative;
     top: 60px;
     border: 2px;
-    border-color: #ff652f;
+    border-color: #df1616;
 }
 
 
@@ -28,7 +28,7 @@ article {
 
 
 header {
-    color: #35bcbf;
+    color: #c3073f;
     text-align: center;
 }
 
@@ -51,13 +51,14 @@ img.zweefLinks {
 }
 
 a {
-    color: #35bcbf;
+    color: #ffffff;
     text-decoration: none;
 }
 
 a:hover {
+    background-color: #3e3e3f ;
     text-decoration: underline;
- 
+
 }
 
 
@@ -67,24 +68,29 @@ a:hover {
     z-index: 1;
     width: 100%;
     top: 0px;
+    list-style-type: none;
+    
 }
 
 .navbar__list {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #263849;
+    background-color: #4e4e50;
     height: 51px;
+
 }
 
 .navbar__item {
     float: right;
     display: block;
-    color: white;
+
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
+    list-style-type: none;
+
  
 }
 
@@ -94,14 +100,6 @@ a:hover {
 
 .navbar__item--left {
     float: left;
-}
-
-nav li a:hover {
-    background-color: #ff4400;
-}
-
-nav li a.active {
-    background-color: #ff652f;
 }
 
 nav li {
@@ -117,7 +115,7 @@ nav li {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #000000;
+    background-color: #434344;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
@@ -130,6 +128,7 @@ nav li {
 
 .dropdown:hover .dropdown-content {
     display: block;
+    
 }
 
 .kolom_links {
@@ -149,7 +148,7 @@ float:left;
     height: 275px;
     margin: 10px;
     filter: brightness(60%);
-    
+    transition: 0.4s;
 }
 
 .imgbox--right {
@@ -158,7 +157,7 @@ float:left;
 }
 
 .imgbox--left{
-
+    position: relative;
     float: left;
 
 }
@@ -167,27 +166,34 @@ float:left;
 .container-imgbox {
     position: relative;
     text-align: center;
-    color: rgb(248, 248, 248);
 
 }    
 
 .container-imgbox:hover .imgbox {
 
- filter:brightness(45%)
+ filter:brightness(45%);
 
 }
 
-.text-in-plaatje-1 {
+.container-imgbox:hover .text-in-plaatje {
+
+    opacity: 0;
+    transition: 0.2s;
+
+
+}
+
+.text-in-plaatje--1 {
     text-align: left;
     position:absolute;
     top: 50px;
     left: 50px;
     font-size: 15px;
-    border:rgb(3, 6, 34) 2px;
+    border:rgb(8, 8, 8) 2px;
 
 }
 
-.text-in-plaatje-2 {
+.text-in-plaatje--2 {
     text-align: left;
     position:absolute;
     top: 50px;
@@ -197,7 +203,7 @@ float:left;
 
 }
 
-.text-in-plaatje-3 {
+.text-in-plaatje--3 {
     text-align: left;
     position:absolute;
     top: 350px;
@@ -207,7 +213,7 @@ float:left;
 
 }
 
-.text-in-plaatje-4 {
+.text-in-plaatje--4 {
     text-align: left;
     position:absolute;
     top: 350px;
@@ -217,7 +223,7 @@ float:left;
 
 }
 
-.text-in-plaatje-5 {
+.text-in-plaatje--5 {
     text-align: left;
     position:absolute;
     top: 640px;
@@ -227,7 +233,7 @@ float:left;
 
 }
 
-.text-in-plaatje-6 {
+.text-in-plaatje--6 {
     text-align: left;
     position:absolute;
     top: 640px;
@@ -253,7 +259,7 @@ font-size: 20px;
 
 .nietlink {
 
-    color: white;
+    color: #fcfcfc;
 }
 
 .index-images {
@@ -272,6 +278,47 @@ font-size: 20px;
     width: 100px;
     position: relative;
     background-color: none;
+
+}
+
+.logotext:hover {
+
+ 
+ background-color:#1a1a1d;
+
+
+}
+
+
+
+#cf {
+    position:relative;
+    margin:0 auto;
+}
+  
+#cf img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+  
+#cf img.top:hover {
+    opacity:0;
+}
+
+.imgbox--nietOpacege {
+
+position: relative;
+    float: left;
+}
+
+.imgbox--nietOpacege:hover {
+
+filter: brightness(60%);
+
 
 }
 
