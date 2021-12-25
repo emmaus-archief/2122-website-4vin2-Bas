@@ -306,13 +306,13 @@ font-size: 20px;
 
 
 
-#cf {
+#imgbox-images{
     position:relative;
     margin:0 auto;
     z-index: 0;
 }
   
-#cf img {
+#imgbox-images img {
     position:absolute;
     left: 0;
     -webkit-transition: opacity 1s ease-in-out;
@@ -321,7 +321,7 @@ font-size: 20px;
     transition: opacity 1s ease-in-out;
 }
   
-#cf img.top:hover {
+#imgbox-images img.top:hover {
     opacity:0;
 }
 
