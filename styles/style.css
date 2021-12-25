@@ -186,7 +186,7 @@ float:left;
 
 }
 
-.container-imgbox:hover .text-in-plaatje {
+.container-imgbox__item:hover .text-in-plaatje {
 
     opacity: 0;
     transition: 0.2s;
