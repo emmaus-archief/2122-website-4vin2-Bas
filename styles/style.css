@@ -146,9 +146,8 @@ float:left;
 
     width:  530px;
     height: 275px;
-    
     filter: brightness(60%);
-    transition: 0.4s;
+    
 }
 
 .imgbox--right {
@@ -170,7 +169,6 @@ float:left;
     flex-flow: row wrap;
     justify-content: center;
     width: 1100px;
-   
 }    
 
 .container-imgbox__item{
@@ -183,13 +181,13 @@ float:left;
 .container-imgbox__item:hover .imgbox {
 
  filter:brightness(45%);
-transition: 0
+transition: 0.4s;
 }
 
 .container-imgbox__item:hover .text-in-plaatje-transition {
 
     opacity: 0;
-    transition: 0.2s;
+    transition: 0.4s;
 
 
 }
@@ -203,9 +201,9 @@ transition: 0
 
 .text-in-plaatje-transition {
 
-        position: absolute;  
-          top: 20px;
-          left: 20px;
+    position: absolute;  
+    top: 20px;
+    left: 20px;
         
 
 
