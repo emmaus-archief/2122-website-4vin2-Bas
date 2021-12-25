@@ -56,7 +56,7 @@ a {
 }
 
 a:hover {
-    background-color: #3e3e3f ;
+
     text-decoration: underline;
 
 }
@@ -90,7 +90,7 @@ a:hover {
     text-decoration: none;
     font-size: 20px;
     list-style-type: none;
-
+    font-weight: bold;
  
 }
 
@@ -177,16 +177,16 @@ float:left;
     margin: 10px;
     width:  530px;
     height: 275px;
-
+    filter: brightness(100%);
 }
 
 .container-imgbox__item:hover .imgbox {
 
  filter:brightness(45%);
-
+transition: 0
 }
 
-.container-imgbox__item:hover .text-in-plaatje {
+.container-imgbox__item:hover .text-in-plaatje-transition {
 
     opacity: 0;
     transition: 0.2s;
@@ -195,80 +195,34 @@ float:left;
 }
 
 .text-in-plaatje {
-    position: absolute;    
+    position: absolute;  
+      top: 20px;
+      left: 20px;
+    
 }
 
-.text-in-plaatje--1 {
-    text-align: left;
-    position:absolute;
-    top: 50px;
-    left: 50px;
-    font-size: 15px;
-    border:rgb(8, 8, 8) 2px;
+.text-in-plaatje-transition {
 
-}
+        position: absolute;  
+          top: 20px;
+          left: 20px;
+        
 
-.text-in-plaatje--2 {
-    text-align: left;
-    position:absolute;
-    top: 50px;
-    left: 600px;
-    font-size: 15px;
-    border:rgb(3, 6, 34) 2px;
 
 }
 
-.text-in-plaatje--3 {
-    text-align: left;
-    position:absolute;
-    top: 350px;
-    left: 50px;
-    font-size: 15px;
-    border:rgb(3, 6, 34) 2px;
 
-}
-
-.text-in-plaatje--4 {
-    text-align: left;
-    position:absolute;
-    top: 350px;
-    left: 600px;
-    font-size: 15px;
-    border:rgb(3, 6, 34) 2px;
-
-}
-
-.text-in-plaatje--5 {
-    text-align: left;
-    position:absolute;
-    top: 640px;
-    left: 50px;
-    font-size: 15px;
-    border:rgb(3, 6, 34) 2px;
-
-}
-
-.text-in-plaatje--6 {
-    text-align: left;
-    position:absolute;
-    top: 640px;
-    left: 600px;
-    font-size: 15px;
-    border:rgb(3, 6, 34) 2px;
-
-}
 
 .groot-maar-klein {
- float: left;
- font-size: 30px;
-
-
+ text-align: left;
+ font-size: 20px;
+ 
 }
 
 .net-wat-kleiner {
 
-float: left;
-font-size: 20px;
+text-align: left;
+font-size: 16px;
 
 }
 
@@ -310,6 +264,7 @@ font-size: 20px;
     position:relative;
     margin:0 auto;
     z-index: 0;
+    filter: brightness(60%);
 }
   
 #imgbox-images img {
